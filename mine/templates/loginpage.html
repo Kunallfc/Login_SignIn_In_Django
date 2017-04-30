@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<h1>Welcome</h1>
+Login From HERE
+
+<body align='center'>
+<form action="log" method='POST'>
+{% csrf_token %}
+{{ fm }}
+<button type='submit'>Submit</button>
+</form>
+</body>
+</html>
